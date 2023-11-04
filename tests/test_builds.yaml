@@ -1,0 +1,13 @@
+builds:
+- name: buy_products
+  tasks:
+  - find_a_list
+  - get_dressed
+  - check_money
+- name: cook_chicken
+  tasks:
+  - to_collect_ones_thoughts
+  - find_recipe
+- name: circular_build
+  tasks:
+  - i_need_money

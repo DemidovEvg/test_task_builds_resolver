@@ -1,0 +1,24 @@
+tasks:
+- name: to_collect_ones_thoughts
+  dependencies: []
+- name: find_a_list
+  dependencies:
+  - to_collect_ones_thoughts
+- name: get_dressed
+  dependencies:
+  - find_a_list
+  - to_collect_ones_thoughts
+- name: find_phone
+  dependencies: []
+- name: check_money
+  dependencies:
+  - find_phone
+- name: find_recipe
+  dependencies:
+  - find_phone
+- name: i_need_money
+  dependencies:
+  - i_need_hard_work
+- name: i_need_hard_work
+  dependencies:
+  - i_need_money
